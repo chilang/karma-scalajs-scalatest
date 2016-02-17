@@ -1,0 +1,36 @@
+{
+  "name": "karma-scalajs-scalatest",
+  "version": "0.1.0",
+  "description": "A Karma plugin for running scala.js ScalaTest",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chilang/karma-scalajs-scalatest.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-adapter",
+    "scala.js",
+    "scalatest",
+    "scala"
+  ],
+  "author": "Chi-Lang Ngo <chilang@gmail.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6",
+    "karma": "",
+    "karma-jasmine": "~0.1.0",    
+    "karma-chrome-launcher": "~0.1.0",
+    "karma-firefox-launcher": "~0.1.0",
+    "grunt-karma": "~0.12.0",
+    "grunt-auto-release": "~0.0.2",
+    "grunt-npm": "~0.0.2",
+    "grunt-bump": "~0.0.7",
+    "jasmine-core": "~2.1.0"    
+  },
+  "license": "MIT"
+}
