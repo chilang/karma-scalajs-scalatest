@@ -1,5 +1,6 @@
 module.exports = function(config) {
   config.set({
+    plugins: ['karma-chrome-launcher', 'karma-scalajs-scalatest'],
     reporters: ['progress'],
     frameworks: ['scalajs-scalatest'],
     files: [
